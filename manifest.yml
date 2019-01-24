@@ -1,10 +1,10 @@
 ---
 declared-services:
   Speech-to-text-watson:
-    label: my-Text-to-Speech-app
+    label: my-Text-to-Speech
     plan: lite
 applications:
-- name: my-speech-to-text
+- name: my-Text-to-Speech-appname
   path: .
   command: npm start
   memory: 516M
