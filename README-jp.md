@@ -28,7 +28,7 @@ Text to Speechはストリーミング、低レイテンシ、テキストから
 
 0. Gitリポジトリをクローンまたはダウンロードする。
    ```
-   git clone https://github.com/ayatokura/speech-to-text-nodejs
+   git clone https://github.com/ayatokura/text-to-speech-nodejs
    ```
 
 1. アプリケーションフォルダ内の *.env.example* ファイルを *.env* というファイル名でコピーファイルを作成する。
@@ -85,9 +85,8 @@ Text to Speechはストリーミング、低レイテンシ、テキストから
     ```
     ibmcloud app push
     ```
-5. WebブラウザでIBM Cloudダッシュボードへアクセスし、Cloud Foundryアプリケーションが作成されていることを確認し、Speech to Text を接続する。
 
-6. 再起動後、Webブラウザで、アプリケーションをデプロイしたURLへアクセスする。  
+5. 再起動後、Webブラウザで、アプリケーションをデプロイしたURLへアクセスする。  
 例えば、前の手順でmy-app-nameを指定した場合:  https://my-app-name.mybluemix.net
 
 
