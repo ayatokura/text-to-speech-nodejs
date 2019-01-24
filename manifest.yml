@@ -1,6 +1,6 @@
 ---
 declared-services:
-  Speech-to-text-watson:
+  Text-to-speech-watson:
     label: my-Text-to-Speech
     plan: lite
 applications:
